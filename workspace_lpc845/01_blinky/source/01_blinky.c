@@ -16,7 +16,7 @@
 #include "clock_config.h"
 #include "fsl_debug_console.h"
 /* TODO: insert other include files here. */
-
+#define SEGMENTO
 /* TODO: insert other definitions and declarations here. */
 
 /*
@@ -28,7 +28,7 @@ int main(void) {
 	GPIO_PinInit(GPIO, 1, 0, &out_config);//Puntero a la estructura del enum de los pines
 
     while(1) {
-    	GPIO_PinWrite(GPIO, 1, 0, !GPIO_PinRead(GPIO, 1, 0));//base, puerto, pin, lo que queres escribir(lees el pin y negas el estado)
+    	GPIO_PinWrite(GPIO, 1, 0, !GPIO_PinRead(GPIO, 1, 0));//base, puerto, pin, lo que queres escribir(lees el pin y negas el )
     	for ( uint32_t i= 0; i < 500000; i++);
 
 
