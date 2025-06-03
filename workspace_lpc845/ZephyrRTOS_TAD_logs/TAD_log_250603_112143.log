@@ -1,0 +1,10 @@
+"Task Aware Debugger for GDB" version 24.12.0 (202407110909)
+Copyright 2016-2023 NXP
+==================================
+11:19:15.125 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\lauti\Documents\GitHub\freertos\curso-lse\workspace_lpc845\03_pwm_sine_wave\Debug\.config (El sistema no puede encontrar el archivo especificado)]
+11:19:15.125 INFO: [TadModel] DSF session ID 20 has started.
+11:19:22.225 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+11:19:22.254 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+11:19:23.131 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+11:19:23.227 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+11:21:43.823 INFO: [TadModel] DSF session ID 20 has ended.
